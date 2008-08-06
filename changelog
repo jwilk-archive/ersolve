@@ -1,0 +1,19 @@
+2003-08-10:
+	* version 0.1
+	* written from scratch
+
+2003-08-11:
+	* version 0.2
+	* some code borrowed from the NetKit package
+	* `-v` option
+	* seems to work well
+
+2003-08-17:
+	* improved `Makefile'
+
+2008-08-06:
+	* general clean-up
+
+Copyright © 2003, 2008 Jakub Wilk <ubanus@users.sf.net>
+
+# vim:ts=4 sw=4 noet
