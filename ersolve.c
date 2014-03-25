@@ -21,7 +21,7 @@ inline void ersolve(char* str, bool verbose)
     return;
   }
   hostname = hp->h_name;
-  if (hp->h_length > sizeof sin_addr) 
+  if (hp->h_length > sizeof sin_addr)
     hp->h_length = sizeof sin_addr;
   memcpy(&sin_addr, hp->h_addr, hp->h_length);
   ip = inet_ntoa(sin_addr);
