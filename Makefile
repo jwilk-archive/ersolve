@@ -4,7 +4,7 @@ ersolve: ersolve.c
 	$(CC) ersolve.c -o ersolve
 
 clean:
-	$(RM) ersolve
+	rm -f ersolve
 
 .PHONY: all clean
 
