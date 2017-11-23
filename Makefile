@@ -1,6 +1,3 @@
-VERSION = 0.3.1
-DISTFILES = Makefile README ersolve.c
-
 all: ersolve
 
 ersolve: ersolve.c
