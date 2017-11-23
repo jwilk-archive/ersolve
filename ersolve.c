@@ -8,7 +8,7 @@
 #include <netinet/in.h>
 #include <arpa/inet.h>
 
-inline void ersolve(char* str, bool verbose)
+void ersolve(char* str, bool verbose)
 {
   struct hostent* hp;
   struct in_addr sin_addr;
