@@ -1,7 +1,9 @@
+CFLAGS ?= -g -O2
+CFLAGS += -Wall
+
 all: ersolve
 
 ersolve: ersolve.c
-	$(CC) ersolve.c -o ersolve
 
 clean:
 	rm -f ersolve
